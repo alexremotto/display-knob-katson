@@ -1,0 +1,16 @@
+<project>
+	<!-- Dónde buscar componentes y screens -->
+	<folders>
+		<!-- Component libraries adicionales (si las tienes) -->
+		<folder path="components" />
+		<!-- Las screens se buscan en esta carpeta por defecto -->
+		<folder path="screens" />
+	</folders>
+
+	<!-- Config de hardware para el preview -->
+	<targets>
+		<target name="tamagotchi_160">
+			<display width="160" height="160" color_format="rgb565" />
+		</target>
+	</targets>
+</project>

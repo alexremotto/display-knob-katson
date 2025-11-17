@@ -1,0 +1,8 @@
+<!-- Check out globals.xml for the font and image definitions -->
+<screen>
+	<view flex_flow="column" style_pad_all="0">
+		<lv_obj width="100%" height="100%" flex_flow="row">
+			<lv_image src="frame_1" />
+		</lv_obj>
+	</view>
+</screen>
