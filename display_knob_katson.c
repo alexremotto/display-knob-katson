@@ -32,10 +32,10 @@ void display_knob_katson_init(const char * asset_path)
     display_knob_katson_init_gen(asset_path);
 
     /* Obtén el objeto raíz donde quieres poner el Tamagotchi */
-    lv_obj_t * root = get_root_screen();
-
+   /* lv_obj_t * root = get_root_screen();
+*/
     /* Inicializa el motor del gato sobre ese objeto */
-    if (root != NULL) {
+   /* if (root != NULL) {
         cat_engine_init(root);
     }
 
