@@ -73,6 +73,7 @@
 		<file src_path="assets/anim_transition_japan.png" name="anim_transition_japan" />
 		<file src_path="assets/anim_transition_norway.png" name="anim_transition_norway" />
 		<file src_path="assets/anim_boot.png" name="anim_boot" />
+		<file src_path="images/frame_0001.png" name="frame_0001" />
 	</images>
 
 	<fonts>

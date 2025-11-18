@@ -63,6 +63,7 @@ const void * anim_transition_streamer;
 const void * anim_transition_japan;
 const void * anim_transition_norway;
 const void * anim_boot;
+const void * frame_0001;
 
 /*----------------
  * Subjects
@@ -120,6 +121,8 @@ void display_knob_katson_init_gen(const char * asset_path)
     anim_transition_norway = lv_strdup(buf);
     lv_snprintf(buf, 256, "%s%s", asset_path, "assets/anim_boot.png");
     anim_boot = lv_strdup(buf);
+    lv_snprintf(buf, 256, "%s%s", asset_path, "images/frame_0001.png");
+    frame_0001 = lv_strdup(buf);
 
     /*----------------
      * Subjects
@@ -161,6 +164,7 @@ void display_knob_katson_init_gen(const char * asset_path)
     lv_xml_register_image(NULL, "anim_transition_japan", anim_transition_japan);
     lv_xml_register_image(NULL, "anim_transition_norway", anim_transition_norway);
     lv_xml_register_image(NULL, "anim_boot", anim_boot);
+    lv_xml_register_image(NULL, "frame_0001", frame_0001);
 #endif
 
 #if LV_USE_XML == 0

@@ -52,7 +52,7 @@ lv_obj_t * ui_ScreenMain_create(void)
     lv_obj_set_height(lv_obj_1, lv_pct(100));
     lv_obj_set_flex_flow(lv_obj_1, LV_FLEX_FLOW_ROW);
     lv_obj_t * lv_image_0 = lv_image_create(lv_obj_1);
-    lv_image_set_src(lv_image_0, frame_1);
+    lv_image_set_src(lv_image_0, frame_0001);
 
     LV_TRACE_OBJ_CREATE("finished");
 

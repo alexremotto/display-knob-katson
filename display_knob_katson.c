@@ -1,5 +1,4 @@
 #include "display_knob_katson.h"
-#include "cat_engine.h"     // <-- añade el header del motor Tamagotchi
 
 /*********************
  *      DEFINES
@@ -12,7 +11,6 @@
 /**********************
  *  STATIC PROTOTYPES
  **********************/
-static lv_obj_t * get_root_screen(void);
 
 /**********************
  *  STATIC VARIABLES
@@ -55,16 +53,4 @@ void display_knob_katson_init(const char * asset_path)
  *   - extern lv_obj_t * ui_Screen1;
  *   - o una función tipo display_knob_katson_get_main_screen();
  */
-static lv_obj_t * get_root_screen(void)
-{
-    // TODO: sustituye esto por tu screen real
 
-    // Ejemplo 1: si SquareLine genera una variable global:
-    // extern lv_obj_t * ui_ScreenMain;
-    // return ui_ScreenMain;
-
-    // Ejemplo 2: si tienes una función de acceso:
-    // return display_knob_katson_get_main_screen();
-
-    return lv_scr_act();  // fallback: pantalla activa actual
-}

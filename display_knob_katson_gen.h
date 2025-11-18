@@ -110,6 +110,7 @@ extern const void * anim_transition_streamer;
 extern const void * anim_transition_japan;
 extern const void * anim_transition_norway;
 extern const void * anim_boot;
+extern const void * frame_0001;
 
 /*----------------
  * Subjects
